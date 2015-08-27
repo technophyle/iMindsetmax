@@ -1,0 +1,264 @@
+{
+  "Depression test":
+    {
+      "questions": [
+        "I do everything slowly",
+        "My future seems hopeless",
+        "I find it hard to concentrate when I read",
+        "All joy and pleasure seem to have disappeared from my life",
+        "I find it hard to make decisions",
+        "I have lost interest in things that used to mean a lot to me",
+        "I feel sad, depressed and unhappy",
+        "I feel restless and cannot relax",
+        "I feel tired",
+        "I find it hard to do even trivial things",
+        "I feel guilty and deserve to be punished",
+        "I feel like a failure",
+        "I feel empty – more dead than alive",
+        "My sleep is disturbed: too little, too much or disturbed sleep",
+        "I wonder HOW I could commit suicide",
+        "I feel confined and imprisoned",
+        "I feel down even when something good happens to me",
+        "I have lost or gained weight without being on a diet"
+      ],
+      "answers": [
+        "Not at all",
+        "Only slightly",
+        "Partly",
+        "Quite a lot",
+        "A lot",
+        "To a great extent"
+      ],
+      "results": [
+        "0 – 9 Depression unlikely\nYou do not have any obvious symptoms of depression. You seem to accept the ups and downs which are a part of normal everyday life",
+        "10 – 17 Possibly minor depression\nYou have some symptoms of depression. Some of these symptoms normally occur in many people. It is difficult to say whether you will need treatment or not, but it is worth speaking to your doctor about how you feel.",
+        "18 – 21 On the verge of depression\nYou seem to have the symptoms of minor depression. Some of these symptoms normally occur in many people. It is difficult to say whether you will need treatment or not.",
+        "22 – 35 Minor to moderate depression\nYou have the symptoms of depression. These symptoms seem to cause a considerable amount of problems in your everyday life, and it would be advisable to consult a doctor.",
+        "36 – 53 Moderate to severe depression\nYou have the symptoms of moderate to severe depression. The condition seems to cause serious problems in your everyday life – even possible suicidal thoughts, and you should consult your doctor immediately.",
+        "54+ Severe depression\nYou have the symptoms of severe depression. You are having suicidal thoughts. This is a serious warning sign, and you must seek help quickly."
+      ]
+    },
+
+  "Modality test":
+    {
+      "questions": [
+        "I base my important decisions on:",
+        "During a discussion, I am most likely to be affected by:",
+        "I express best what is going on inside me by:",
+        "If I had to choose, it would be easiest for me:",
+        "I am:",
+        "When I require to learn how to use, for example, a new tool, I prefer at first:",
+        "If I have to learn something new, I prefer:",
+        "If I were to fantasize a walk on the beach one summer, I most easily imagine:",
+        "The most important way for me to find out whether my girlfriend, spouse, or someone else who is close to me, appreciates me, is:",
+        "I am good at:"
+      ],
+      "answers": [
+        [
+          {"K": "that I can sense the different options, and that I get a feeling of what is right."},
+          {"A": "that one option sounds right, and that there is something that resonates with me."},
+          {"V": "that I can get an overview of the various options and see what shines through the most."},
+          {"AD": "a precise examination and a careful study of the circumstances."}
+        ],
+        [
+          {"A": "the other persons voice and the way they speak."},
+          {"V": "the other persons facial expressions and body language in general."},
+          {"AD": "whether the other persons arguments make sense."},
+          {"K": "whether I can feel what the other person really feels."}
+        ],
+        [
+          {"V": "expressing myself figuratively in a way that illustrates the eyes, with which I experience things."},
+          {"K": "being honest about what I feel and sense."},
+          {"AD": "articulating exactly what I think and what my opinions are."},
+          {"A": "using my voice and my tone of voice in a telling way."}
+        ],
+        [
+          {"A": "to find the right sound and volume on a stereo system."},
+          {"AD": "to select the intellectually most relevant point on an interesting topic."},
+          {"K": "to test and select the most comfortable furniture."},
+          {"V": "to choose the nicest colors and color combinations."}
+        ],
+        [
+          {"A": "in close attention to the sounds around me."},
+          {"AD": "very careful to get new data and facts to make sense."},
+          {"K": "sensitive to how my clothes feel against my skin."},
+          {"V": "very influenced by the colors and what a room looks like."}
+        ],
+        [
+          {"V": "to observe a person who uses it, so I can see how it is used."},
+          {"A": "to hear about what it can do and how it is used."},
+          {"AD": "to get a logical instruction that I can follow."},
+          {"K": "to get started and figure it out by having it in my hands."}
+        ],
+        [
+          {"V": "to get an overview of the fabric by getting it illustrated through drawings, pictures and / or other graphic representations."},
+          {"AD": "that there is a logical consistency in the way the fabric is structured and that it’s substantiated by facts."},
+          {"A": "that the teacher is a good storyteller, who can use their voice to engage and motivate."},
+          {"K": "that teaching is largely made up of practical activities, and that I have the opportunity to use my body."}
+        ],
+        [
+          {"A": "Hearing the sound of the waves, seagulls, adults and children who talk, shout and laugh."},
+          {"K": "Sensing how it feels to walk in the hot sand, feeling the warm air against my skin and the smell of salt water and sunscreen."},
+          {"V": "Seeing clear vivid pictures of the blue sea, the white beach with children and adult, blankets, toys, etc."},
+          {"AD": "Thinking about or talking to myself about how such a trip to the beach could be, and what I think about spending time on the beach."}
+        ],
+        [
+          {"K": "that he / she caresses / touches me in a certain way."},
+          {"V": "I can see it in his / her facial expression, expression of the eyes and / or posture."},
+          {"A": "that he / she tells me with a certain tone of voice and / or a particular timbre in their voice."},
+          {"AD": "that he / she can justify to me why he / she likes me and what it exactly is he / she likes."}
+        ],
+        [
+          {"K": "noticing what is happening in my body and what I feel."},
+          {"V": "seeing inner pictures and remembering how people and places look like."},
+          {"A": "remembering what someone has said, and quoting it."},
+          {"AD": "agreeing with myself on the tasks and chores, I prioritize the most and getting a reasonable plan out of it."}
+        ]
+      ],
+      "modality": [
+        {"V": "Visual"},
+        {"A": "Auditive"},
+        {"K": "Kinesthetic"},
+        {"AD": "Auditive digital"}
+      ]
+    },
+
+    "Type3 test":
+    {
+      "questions": [
+        "I base my important decisions on:",
+        "During a discussion, I am most likely to be affected by:",
+        "I express best what is going on inside me by:",
+        "If I had to choose, it would be easiest for me:",
+        "I am:",
+        "When I require to learn how to use, for example, a new tool, I prefer at first:",
+        "If I have to learn something new, I prefer:",
+        "If I were to fantasize a walk on the beach one summer, I most easily imagine:",
+        "The most important way for me to find out whether my girlfriend, spouse, or someone else who is close to me, appreciates me, is:",
+        "I am good at:"
+      ],
+      "answers": [
+        [
+          {"5": "that I can sense the different options, and that I get a feeling of what is right."},
+          {"2": "that one option sounds right, and that there is something that resonates with me."},
+          {"3": "that I can get an overview of the various options and see what shines through the most."},
+          {"4": "a precise examination and a careful study of the circumstances."},
+          {"1": "a precise examination and a careful study of the circumstances."},
+          {"6": "a precise examination and a careful study of the circumstances."},
+          {"7": "a precise examination and a careful study of the circumstances."},
+          {"8": "a precise examination and a careful study of the circumstances."},
+          {"9": "a precise examination and a careful study of the circumstances."}
+        ],
+        [
+          {"7": "the other persons voice and the way they speak."},
+          {"2": "that one option sounds right, and that there is something that resonates with me."},
+          {"3": "that I can get an overview of the various options and see what shines through the most."},
+          {"4": "a precise examination and a careful study of the circumstances."},
+          {"5": "a precise examination and a careful study of the circumstances."},
+          {"6": "a precise examination and a careful study of the circumstances."},
+          {"1": "a precise examination and a careful study of the circumstances."},
+          {"8": "a precise examination and a careful study of the circumstances."},
+          {"9": "a precise examination and a careful study of the circumstances."}
+        ],
+        [
+          {"8": "expressing myself figuratively in a way that illustrates the eyes, with which I experience things."},
+          {"2": "that one option sounds right, and that there is something that resonates with me."},
+          {"3": "that I can get an overview of the various options and see what shines through the most."},
+          {"4": "a precise examination and a careful study of the circumstances."},
+          {"5": "a precise examination and a careful study of the circumstances."},
+          {"1": "a precise examination and a careful study of the circumstances."},
+          {"7": "a precise examination and a careful study of the circumstances."},
+          {"6": "a precise examination and a careful study of the circumstances."},
+          {"9": "a precise examination and a careful study of the circumstances."}
+        ],
+        [
+          {"1": "to find the right sound and volume on a stereo system."},
+          {"2": "that one option sounds right, and that there is something that resonates with me."},
+          {"9": "that I can get an overview of the various options and see what shines through the most."},
+          {"4": "a precise examination and a careful study of the circumstances."},
+          {"5": "a precise examination and a careful study of the circumstances."},
+          {"6": "a precise examination and a careful study of the circumstances."},
+          {"7": "a precise examination and a careful study of the circumstances."},
+          {"8": "a precise examination and a careful study of the circumstances."},
+          {"3": "a precise examination and a careful study of the circumstances."}
+        ],
+        [
+          {"2": "in close attention to the sounds around me."},
+          {"1": "that one option sounds right, and that there is something that resonates with me."},
+          {"3": "that I can get an overview of the various options and see what shines through the most."},
+          {"4": "a precise examination and a careful study of the circumstances."},
+          {"5": "a precise examination and a careful study of the circumstances."},
+          {"6": "a precise examination and a careful study of the circumstances."},
+          {"7": "a precise examination and a careful study of the circumstances."},
+          {"8": "a precise examination and a careful study of the circumstances."},
+          {"9": "a precise examination and a careful study of the circumstances."}
+        ],
+        [
+          {"1": "to observe a person who uses it, so I can see how it is used."},
+          {"2": "that one option sounds right, and that there is something that resonates with me."},
+          {"3": "that I can get an overview of the various options and see what shines through the most."},
+          {"7": "a precise examination and a careful study of the circumstances."},
+          {"5": "a precise examination and a careful study of the circumstances."},
+          {"6": "a precise examination and a careful study of the circumstances."},
+          {"4": "a precise examination and a careful study of the circumstances."},
+          {"8": "a precise examination and a careful study of the circumstances."},
+          {"9": "a precise examination and a careful study of the circumstances."}
+        ],
+        [
+          {"6": "to get an overview of the fabric by getting it illustrated through drawings, pictures and / or other graphic representations."},
+          {"2": "that one option sounds right, and that there is something that resonates with me."},
+          {"3": "that I can get an overview of the various options and see what shines through the most."},
+          {"4": "a precise examination and a careful study of the circumstances."},
+          {"5": "a precise examination and a careful study of the circumstances."},
+          {"1": "a precise examination and a careful study of the circumstances."},
+          {"7": "a precise examination and a careful study of the circumstances."},
+          {"8": "a precise examination and a careful study of the circumstances."},
+          {"9": "a precise examination and a careful study of the circumstances."}
+        ],
+        [
+          {"9": "Hearing the sound of the waves, seagulls, adults and children who talk, shout and laugh."},
+          {"2": "that one option sounds right, and that there is something that resonates with me."},
+          {"8": "that I can get an overview of the various options and see what shines through the most."},
+          {"4": "a precise examination and a careful study of the circumstances."},
+          {"5": "a precise examination and a careful study of the circumstances."},
+          {"6": "a precise examination and a careful study of the circumstances."},
+          {"7": "a precise examination and a careful study of the circumstances."},
+          {"3": "a precise examination and a careful study of the circumstances."},
+          {"1": "a precise examination and a careful study of the circumstances."}
+        ],
+        [
+          {"3": "that he / she caresses / touches me in a certain way."},
+          {"2": "that one option sounds right, and that there is something that resonates with me."},
+          {"1": "that I can get an overview of the various options and see what shines through the most."},
+          {"4": "a precise examination and a careful study of the circumstances."},
+          {"6": "a precise examination and a careful study of the circumstances."},
+          {"5": "a precise examination and a careful study of the circumstances."},
+          {"7": "a precise examination and a careful study of the circumstances."},
+          {"8": "a precise examination and a careful study of the circumstances."},
+          {"9": "a precise examination and a careful study of the circumstances."}
+        ],
+        [
+          {"4": "noticing what is happening in my body and what I feel."},
+          {"2": "that one option sounds right, and that there is something that resonates with me."},
+          {"3": "that I can get an overview of the various options and see what shines through the most."},
+          {"1": "a precise examination and a careful study of the circumstances."},
+          {"5": "a precise examination and a careful study of the circumstances."},
+          {"8": "a precise examination and a careful study of the circumstances."},
+          {"7": "a precise examination and a careful study of the circumstances."},
+          {"6": "a precise examination and a careful study of the circumstances."},
+          {"9": "a precise examination and a careful study of the circumstances."}
+        ]
+      ],
+      "modality": [
+        {"1": "1"},
+        {"2": "2"},
+        {"3": "3"},
+        {"4": "4"},
+        {"5": "5"},
+        {"6": "6"},
+        {"7": "7"},
+        {"8": "8"},
+        {"9": "9"}
+      ]
+    }
+}

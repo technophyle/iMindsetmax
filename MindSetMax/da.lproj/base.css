@@ -1,0 +1,24 @@
+
+body {
+  background-color:  #FFFFFF;
+  background-image:  url;
+  background-repeat:     no-repeat;
+  font:              12px/18px "Lucida Grande", Geneva, Arial, Verdana, sans-serif; 
+  color:             #000000;
+  margin:            0px;
+  -webkit-text-size-adjust:100%;
+}
+
+h2.user_note {
+ color:             #000000;
+}
+
+p.user_note {
+ color:             #0023ff;
+ font-style:        italic;
+}
+
+.box {
+  margin: 8px;
+
+}

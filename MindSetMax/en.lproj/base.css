@@ -1,0 +1,59 @@
+
+body {
+  font:              12px/18px "Lucida Grande", Geneva, Arial, Verdana, sans-serif; 
+  color:             #000000;
+  margin:            0px;
+  -webkit-text-size-adjust:100%;
+  background-color: #FFFFFF;
+}
+
+h2.user_note {
+ color:             #000000;
+}
+
+p.user_note {
+ color:             #0023ff;
+ font-style:        italic;
+}
+
+#background_gradient {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 600px;
+    background-image: -webkit-linear-gradient(top, #FFF, #FFF); 
+    background-attachment: fixed;
+}
+
+.box {
+  padding: 8px;
+}
+
+.blog-item {
+  border-radius: 0px;
+  background-image: -webkit-linear-gradient(top, #808, #404); 
+  color: #8fb400;
+  padding: 4px;
+}
+
+.blog-item:first-child {
+  border-radius: 9px 9px 0px 0px;
+}
+
+.blog-item-title {
+  padding: 10px 0px;
+  font-size: 120%;
+  font-weight: bolder;
+}
+
+.blog-item-date {
+  font-size: 90%;
+}
+
+.blog-item-description {
+
+}
+ 

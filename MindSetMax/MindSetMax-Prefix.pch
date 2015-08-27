@@ -1,0 +1,44 @@
+//
+// Prefix header for all source files of the 'MindSetMax' target in the 'MindSetMax' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+// List of languages supported in this app
+#define SUPPORTED_LANGUAGES @"en"
+
+// Enable search widget on tableviews.
+#define SEARCH_ENABLED_FOR_TABLEVIEW false
+
+// Enable search tab pane.
+#define SEARCH_ENABLED true
+
+// URL for appstore
+#define APPSTORE_RATE_URL @"http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=653711942&onlyLatestVersion=false&type=Purple+Software\k"
+
+// 0=always, 1=daily, etc.
+#define APPSTORE_RATE_PROMPT_INTERVAL 4
+#define NEWSLETTER_PROMPT_INTERVAL 4
+
+// Filename of about.html file (without .html).
+#define ABOUT_HTML_FILE @"subject"
+
+// Email address used for user feedback 
+#define FEEDBACK_EMAIL_ADDRESS @"support@mindsetmax.com"
+
+// Key from flurry.com
+#define FLURRY_KEY @"VGKC5TZMZDN2PXV48QY9"
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#include <libxml/parser.h>
+#include <libxml/tree.h>
+#import "NoteStore.h"
+#import "ContentStore.h"
+#endif

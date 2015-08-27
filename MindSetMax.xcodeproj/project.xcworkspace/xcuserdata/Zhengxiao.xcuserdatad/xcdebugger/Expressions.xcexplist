@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[HRColorMapView updateColorCursor]:HRColorMapView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.color">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MindSetMaxAppDelegate application:didFinishLaunchingWithOptions:]:MindSetMaxAppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[ContentStore contentStore].parseAppKey">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HSVColorFromUIColor:HRHSVColorUtil.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

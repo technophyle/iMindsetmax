@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string></string>
+			<key>Group</key>
+			<array>
+				<dict>
+					<key>Caption</key>
+					<string>Single line group</string>
+					<key>Title</key>
+					<string>Single item</string>
+					<key>Icon</key>
+					<string>ui_list_icon_type_29x29</string>
+					<key>Subitems</key>
+					<array>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Annotate</key>
+									<false/>
+									<key>Content</key>
+									<string>disclaimer</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>Disclaimer</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Caption</key>
+									<string>Forord</string>
+									<key>Content</key>
+									<string>pre11</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>1.1 Forord</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Caption</key>
+									<string>Mindset</string>
+									<key>Content</key>
+									<string>pre12</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>1.2 Mindset</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Item title, a really long string of text.</string>
+			<key>Caption</key>
+			<string>Item caption, a really long string of text.</string>
+			<key>Group</key>
+			<array>
+				<dict>
+					<key>Caption</key>
+					<string>Group caption &lt;deprecated&gt;</string>
+					<key>Icon</key>
+					<string>ui_list_icon_type_29x29</string>
+					<key>Subitems</key>
+					<array>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Annotate</key>
+									<false/>
+									<key>Content</key>
+									<string>disclaimer</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>Disclaimer</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Caption</key>
+									<string>Forord</string>
+									<key>Content</key>
+									<string>pre11</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>1.1 Forord</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Caption</key>
+									<string>Mindset</string>
+									<key>Content</key>
+									<string>pre12</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>1.2 Mindset</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+					<key>Title</key>
+					<string>Single item, with ridiculously long title.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Group caption, long enough to require text shrinkage</string>
+			<key>Group</key>
+			<array>
+				<dict>
+					<key>Caption</key>
+					<string>Group caption 🙏</string>
+					<key>Icon</key>
+					<string>ui_list_icon_type_29x29</string>
+					<key>Subitems</key>
+					<array>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Annotate</key>
+									<false/>
+									<key>Content</key>
+									<string>disclaimer</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>Disclaimer</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Caption</key>
+									<string>Forord</string>
+									<key>Content</key>
+									<string>pre11</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>1.1 Forord</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Caption</key>
+									<string>Mindset</string>
+									<key>Content</key>
+									<string>pre12</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>1.2 Mindset</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+					<key>Title</key>
+					<string>Single item, with emoji 🙏</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Group</key>
+			<array>
+				<dict>
+					<key>Icon</key>
+					<string>ui_list_icon_type_29x29</string>
+					<key>Subitems</key>
+					<array>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Caption</key>
+									<string>NLP historie</string>
+									<key>Content</key>
+									<string>history21</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>2.1 NLP historie</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Caption</key>
+									<string>NLP mindset</string>
+									<key>Content</key>
+									<string>history22</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>2.2 NLP mindset</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+					<key>Title</key>
+					<string>Upper item, type</string>
+				</dict>
+				<dict>
+					<key>Icon</key>
+					<string>ui_list_icon_disclaimer_29x29</string>
+					<key>Subitems</key>
+					<array>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Caption</key>
+									<string>NLP historie</string>
+									<key>Content</key>
+									<string>history21</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>2.1 NLP historie</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Caption</key>
+									<string>NLP mindset</string>
+									<key>Content</key>
+									<string>history22</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>2.2 NLP mindset</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+					<key>Title</key>
+					<string>Middle item, disclaimer</string>
+				</dict>
+				<dict>
+					<key>Icon</key>
+					<string>ui_list_icon_link_29x29</string>
+					<key>Subitems</key>
+					<array>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Caption</key>
+									<string>NLP historie</string>
+									<key>Content</key>
+									<string>history21</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>2.1 NLP historie</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Caption</key>
+									<string>NLP mindset</string>
+									<key>Content</key>
+									<string>history22</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>2.2 NLP mindset</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+					<key>Title</key>
+					<string>Middle item, link</string>
+				</dict>
+				<dict>
+					<key>Icon</key>
+					<string>ui_list_icon_audio_29x29</string>
+					<key>Subitems</key>
+					<array>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Caption</key>
+									<string>NLP historie</string>
+									<key>Content</key>
+									<string>history21</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>2.1 NLP historie</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Caption</key>
+									<string>NLP mindset</string>
+									<key>Content</key>
+									<string>history22</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>2.2 NLP mindset</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+					<key>Title</key>
+					<string>Middle item, audio</string>
+				</dict>
+				<dict>
+					<key>Icon</key>
+					<string>ui_list_icon_video_29x29</string>
+					<key>Subitems</key>
+					<array>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Caption</key>
+									<string>NLP historie</string>
+									<key>Content</key>
+									<string>history21</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>2.1 NLP historie</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>Group</key>
+							<array>
+								<dict>
+									<key>Caption</key>
+									<string>NLP mindset</string>
+									<key>Content</key>
+									<string>history22</string>
+									<key>Icon</key>
+									<string></string>
+									<key>Title</key>
+									<string>2.2 NLP mindset</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+					<key>Title</key>
+					<string>Lower item, video</string>
+				</dict>
+			</array>
+			<key>Reorder</key>
+			<false/>
+			<key>Notes</key>
+			<string>NO</string>
+			<key>Title</key>
+			<string></string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>Group</key>
+			<array>
+				<dict>
+					<key>Caption</key>
+					<string>Enneagram TEST app intro</string>
+					<key>Icon</key>
+					<string>Movie.png</string>
+					<key>Video</key>
+					<string>EnneagramTESTappintroUK</string>
+					<key>Content</key>
+					<string>search_for_EnneagramTESTappintroUK</string>
+					<key>Title</key>
+					<string>Enneagram TEST app intro</string>
+				</dict>
+				<dict>
+					<key>Caption</key>
+					<string>Enneagram TEST intro</string>
+					<key>Icon</key>
+					<string>Movie.png</string>
+					<key>Video</key>
+					<string>EnneagramTESTintroUK</string>
+					<key>Content</key>
+					<string>search_for_EnneagramTESTintroUK</string>
+					<key>Title</key>
+					<string>Enneagram TEST app intro</string>
+				</dict>
+				<dict>
+					<key>Caption</key>
+					<string>Enneagram TEST intro - remote</string>
+					<key>Icon</key>
+					<string>Movie.png</string>
+					<key>Video</key>
+					<string>EnneagramTESTintroUK</string>
+					<key>Content</key>
+					<string>search_for_EnneagramTESTintroUK</string>
+					<key>Title</key>
+					<string>Enneagram TEST app intro - remote</string>
+					<key>RemoteContentURL</key>
+					<string>http://krisb.net/touch/EnneagramTESTappintroUK.mp4</string>
+				</dict>
+				<dict>
+					<key>Caption</key>
+					<string>Enneagram TEST intro</string>
+					<key>Icon</key>
+					<string>Movie.png</string>
+					<key>Audio</key>
+					<string>Ethan_test</string>
+					<key>Content</key>
+					<string>search_for_EnneagramTESTintroUK</string>
+					<key>Title</key>
+					<string>Enneagram TEST app intro</string>
+					<key>RemoteContentURL</key>
+					<string>http://SmartPhoneApps:Strong2011Mindset@mindsetmax.com/media/IAUDL1111/Ethan-test-audio-090615.m4a</string>
+				</dict>
+				<dict>
+					<key>Caption</key>
+					<string>Lille WSPA film - remote</string>
+					<key>Icon</key>
+					<string>Movie.png</string>
+					<key>Video</key>
+					<string>Ethan_test</string>
+					<key>Content</key>
+					<string>search_for_LilleWSPAfilm</string>
+					<key>Title</key>
+					<string>Lille WSPA film - remote</string>
+					<key>RemoteContentURL</key>
+					<string>http://SmartPhoneApps:Strong2011Mindset@mindsetmax.com/media/IVIDL1111/Ethantestvideo020715.mp4</string>
+				</dict>
+			</array>
+			<key>Reorder</key>
+			<false/>
+			<key>Title</key>
+			<string>Videos</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>Group</key>
+			<array>
+				<dict>
+					<key>Caption</key>
+					<string>iEnneagram TEST mindset</string>
+					<key>Icon</key>
+					<string>Movie.png</string>
+					<key>Audio</key>
+					<string>iEnneagramTESTmindsetUK</string>
+					<key>Content</key>
+					<string>search_for_iEnneagramTESTmindsetUK</string>
+					<key>Title</key>
+					<string>iEnneagram TEST mindset</string>
+				</dict>
+				<dict>
+					<key>Caption</key>
+					<string>iEnneagram TEST type 4</string>
+					<key>Icon</key>
+					<string>Movie.png</string>
+					<key>Audio</key>
+					<string>iEnneagramTESTtype4UK</string>
+					<key>Content</key>
+					<string>search_for_ iEnneagramTESTtype4UK</string>
+					<key>Title</key>
+					<string>iEnneagram TEST type 4</string>
+				</dict>
+			</array>
+			<key>Reorder</key>
+			<false/>
+			<key>Title</key>
+			<string>Podcasts</string>
+		</dict>
+	</array>
+</array>
+</plist>

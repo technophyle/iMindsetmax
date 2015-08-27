@@ -1,0 +1,299 @@
+{
+  "appSettings":
+    {
+      "navigationBarTint": "#0082c0",
+      "askForAutoDownload": "false",
+	"messageOfTheDayAlertHour": 10,
+      "parseApplicationKey": "VynG9mlCMocYKPn1O28PRhufhCUZwJZbtsDCId0c",
+      "parseClientId": "7odjmgfJNUbOHs6vhLQQeI1w1IpSabYOXINwJqoU",
+      "mailchimpApiKey": "803a4e8dd06f910ac4e872dd0ac36f2d-us6",
+      "mailchimpListId": "438d66abe7",
+      "shareMessage": "Check out this awesome app!\nhttps://itunes.apple.com/us/app/imindsetmax-lite/id653711942?mt=8",
+      "shareLink": "https://itunes.apple.com/us/app/imindsetmax-lite/id653711942?mt=8",
+      "shareImageLink": "http://a1.mzstatic.com/us/r30/Purple4/v4/7f/56/11/7f561109-4720-8af0-a656-55777980e785/screen568x568.jpeg"
+    },
+  "tabs": [
+    {
+      "tabIcon": "ui_tabbar_read",
+      "tabName": "Read",
+      "tabPage":
+        {
+          "caption": "iMindsetmax LITE",
+          "backLabel": "iMindsetmax LITE",
+          "groups":[
+            {
+              "groupPages":
+              [
+                {
+                  "title": "Read me first",
+                  "caption": "Read me",
+                  "icon": "ui_list_icon_disclaimer_29x29",
+                  "groups":
+                    [
+                      {
+                        "groupPages":
+                        [
+                          {
+                            "title": "Disclaimer",
+                            "caption": "Disclaimer",
+                            "shortcutId": ".0-0.0-0",
+                            "html": "disclaimer"
+                          }
+                        ]
+                      },
+                      {
+                        "groupPages":
+                        [
+                          {
+                            "title": "Preface",
+                            "caption": "Preface",
+                            "shortcutId": ".0-0.1-0",
+                            "annotationId": "ann11",
+                            "html": "11"
+                          }
+                        ]
+                      },
+                      {
+                        "groupPages":
+                        [
+                          {
+                            "title": "Mindset",
+                            "caption": "Mindset",
+                            "shortcutId": ".0-0.2-0",
+                            "annotationId": "ann12",
+                            "html": "12"
+                          }
+                        ]
+                      }
+                    ]
+                },
+		{
+                  "title": "Blog",
+                  "caption": "Blog",
+                  "icon": "ui_list_icon_link_29x29",
+                  "shortcutId": "20",
+                  "html": "20"
+                },
+             {
+                  "title": "Self-help",
+                  "caption": "Self-help",
+                  "icon": "ui_list_icon_test_29x29",
+                    "groups":
+                    [
+                      {
+                        "groupPages":
+                        [
+			{
+                            "title": "Mindsetmax Mindset ABC",
+                            "caption": "Mindset ABC",
+                            "shortcutId": ".2-1.0-0",
+                            "annotationId": "ann31",
+                            "html": "31"
+                          },                          
+			{
+                            "title": "Personality Test",
+                            "caption": "Personality",
+                            "shortcutId": ".2-1.1-0",
+                            "annotationId": "ann32",
+                            "html": "32"
+                          },
+			  {
+                            "title": "STOP your FEAR",
+                            "caption": "STOP FEAR",
+                            "shortcutId": ".2-1.2-0",
+                            "annotationId": "ann33",
+                            "html": "33"
+                          }
+                                               
+                        ]
+                      }
+                    ]                
+                },
+                {
+                  "title": "Background",
+                  "caption": "Background",
+                  "icon": "ui_list_icon_disclaimer_29x29",
+                    "groups":[
+                      {
+                        "groupPages":
+                        [
+                          {
+                            "title": "NLP theory",
+                            "caption": "NLP",
+                            "shortcutId": ".2-0.0-0",
+                            "annotationId": "ann21",
+                            "html": "21"
+                          },
+                          {
+                            "title": "Enneagram theory",
+                            "caption": "Personalities",
+                            "shortcutId": ".2-0.1-0",
+                            "annotationId": "ann22",
+                            "html": "22"
+                          },
+			{
+                            "title": "Metamedicin theory",
+                            "caption": "Metamedicin",
+                            "shortcutId": ".2-0.2-0",
+                            "annotationId": "ann23",
+                            "html": "23"
+                          },  
+			{
+                            "title": "Thought Field theory",
+                            "caption": "TFT",
+                            "shortcutId": ".2-0.3-0",
+                            "annotationId": "ann24",
+                            "html": "24"
+                          }                          
+                        ]
+                      }
+                    ]
+                  
+                },
+                {
+                  "title": "Links",
+                  "caption": "Links",
+                  "icon": "ui_list_icon_link_29x29",
+                  "annotationId": "ann41",
+                  "shortcutId": ".2-2",
+                  "html": "41"
+                },
+                {
+                  "title": "All User notes",
+                  "caption": "User notes",
+                  "icon": "ui_list_icon_disclaimer_29x29",
+                  "shortcutId": "71",
+                  "html": "71"
+                }
+              ]
+            }
+          ]
+        }              
+    },
+    {
+      "tabIcon": "ui_tabbar_test",
+      "tabName": "Test",
+      "tabPage":
+        {
+          "caption": "Test",
+          "groups":
+          [
+            {
+              "groupCaption":"",
+              "groupPages":
+              [
+                {
+                  "title": "Depression test",
+                  "caption": "Depression test",
+                  "icon": "Depression_test_29",
+                  "view_controller": "TestViewController"
+                },
+                {
+                  "title": "Modality test",
+                  "caption": "Modality test",
+                  "icon": "Modality_test_29",
+                  "view_controller": "Test2ViewController"
+                },
+                {
+                  "title": "Type3 test",
+                  "caption": "Type3 test",
+                  "icon": "Type3_test_29",
+                  "view_controller": "Test3ViewController"
+                }
+              ]
+            }
+          ]
+        }
+    },
+    
+    {
+      "tabIcon": "ui_tabbar_listen",
+      "tabName": "Listen",
+      "tabPage":
+        {
+          "caption": "Listen",
+          "groups":
+          [
+            {
+              "groupCaption": "Listen to this!",
+              "groupPages":
+              [
+                {
+                  "title": "Enneagram TEST intro",
+                  "caption": "Enneagram TEST intro",
+                  "icon": "Movie.png",
+                  "audio": "iEnneagramTESTtype4UK",
+                  "html": "search_words_for_EnneagramTESTintroUK"
+                },
+                {
+                  "title": "Enneagram TEST intro - remote",
+                  "caption": "Enneagram TEST intro - remote",
+                  "icon": "Movie.png",
+                  "audio": "iEnneagramTESTmindsetUK",
+                  "html": "search_words_for_iEnneagramTESTtype4UK",
+                  "remoteURL": "http://SmartPhoneApps:Strong2011Mindset@mindsetmax.com/media/IAUDL1111/Ethan-test-audio-090615.m4a"
+                }
+              ]
+            }
+          ]
+        }
+    },
+    
+    {
+      "tabIcon": "ui_tabbar_watch",
+      "tabName": "Watch",
+      "tabPage":
+        {
+          "caption": "Watch",
+          "groups":
+          [
+            {
+              "groupCaption": "Watch this!",
+              "groupPages":
+              [
+                {
+                  "title": "iEnneagram TEST mindset",
+                  "caption": "iEnneagram TEST mindset",
+                  "icon": "Movie.png",
+                  "video": "iEnneagramTESTmindsetUK",
+                  "html": "search_words_for_iEnneagramTESTmindsetUK" 
+                },
+                {
+                  "title": "iEnneagram TEST type 4",
+                  "caption": "iEnneagram TEST type 4",
+                  "icon": "Movie.png",
+                  "video": "iEnneagramTESTtype4UK",
+                  "html": "search_words_for_iEnneagramTESTtype4UK",
+                  "remoteURL": "http://SmartPhoneApps:Strong2011Mindset@mindsetmax.com/media/IVIDL1111/Ethantestvideo020715.mp4"
+                }
+              ]
+            }
+          ]
+        }
+    },
+    
+    {
+      "tabIcon": "ui_tabbar_search",
+      "tabName": "Search",
+      "tabPage":
+        { 
+          "caption": "Search",
+          "type": "search"
+        }
+    },
+    
+    {
+      "tabIcon": "ui_tabbar_settings",
+      "tabName": "Settings",
+      "tabPage":
+        { 
+          "caption": "Settings",
+          "type": "settings",
+          "showAutoPlay": "false",
+          "showAutoDownload": "false",
+          "showColorTheme": true
+        }
+    }
+    
+  ]
+}

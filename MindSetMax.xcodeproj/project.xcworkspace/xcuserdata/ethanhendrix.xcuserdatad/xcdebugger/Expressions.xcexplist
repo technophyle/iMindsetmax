@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[NewsletterViewController subscribeMailchimp]:NewsletterViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "lastName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__46-[NewsletterViewController subscribeMailchimp]_block_invoke:NewsletterViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[parsedResponse isKindOfClass:[NSDictionary class]]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[TableViewController tableView:didSelectRowAtIndexPath:]:TableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[TestViewController pickerView:titleForRow:forComponent:]:TestViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "answers[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

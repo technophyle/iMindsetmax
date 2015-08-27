@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7531" systemVersion="14A389" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIApplication">
+            <connections>
+                <outlet property="delegate" destination="6" id="8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <customObject id="6" customClass="MindSetMaxAppDelegate_iPad">
+            <connections>
+                <outlet property="navigationController" destination="37" id="50"/>
+                <outlet property="navigationControllerAudio" destination="65" id="71"/>
+                <outlet property="navigationControllerVideo" destination="59" id="72"/>
+                <outlet property="rootViewController" destination="44" id="51"/>
+                <outlet property="rootViewControllerAudio" destination="67" id="73"/>
+                <outlet property="rootViewControllerVideo" destination="61" id="74"/>
+                <outlet property="tabBarController" destination="34" id="52"/>
+                <outlet property="window" destination="2" id="7"/>
+            </connections>
+        </customObject>
+        <window opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2" userLabel="Window">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+            <connections>
+                <outlet property="rootViewController" destination="34" id="53"/>
+            </connections>
+        </window>
+        <tabBarController id="34">
+            <extendedEdge key="edgesForExtendedLayout"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="40">
+                <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            </tabBar>
+            <viewControllers>
+                <navigationController id="37">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Read" image="ui_tabbar_read.png" id="43"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="45">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.43016979100000002" green="0.65824663640000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController nibName="RootViewController" id="44" customClass="RootViewController">
+                            <extendedEdge key="edgesForExtendedLayout"/>
+                            <navigationItem key="navigationItem" title="NLP 1-2-3 vol. 1" id="46">
+                                <barButtonItem key="backBarButtonItem" title="dfdf" id="47"/>
+                            </navigationItem>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+                <navigationController id="65">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Listen" image="ui_tabbar_listen.png" id="68"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="66">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.43016979100000002" green="0.65824663640000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController nibName="RootViewController" id="67" customClass="RootViewController">
+                            <extendedEdge key="edgesForExtendedLayout"/>
+                            <navigationItem key="navigationItem" title="NLP 1-2-3 vol. 1" id="69">
+                                <barButtonItem key="backBarButtonItem" title="dfdf" id="70"/>
+                            </navigationItem>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+                <navigationController id="59">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Watch" image="ui_tabbar_watch.png" id="62"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="60">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.43016979100000002" green="0.65824663640000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController nibName="RootViewController" id="61" customClass="RootViewController">
+                            <extendedEdge key="edgesForExtendedLayout"/>
+                            <navigationItem key="navigationItem" title="NLP 1-2-3 vol. 1" id="63">
+                                <barButtonItem key="backBarButtonItem" title="dfdf" id="64"/>
+                            </navigationItem>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+                <viewController nibName="SearchViewController" id="38" customClass="SearchViewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="ui_tabbar_search.png" id="42"/>
+                </viewController>
+                <navigationController id="54">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="ui_tabbar_settings.png" id="56"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="57">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.43016979100000002" green="0.65824663640000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController nibName="SettingsViewController" id="55" customClass="SettingsViewController">
+                            <extendedEdge key="edgesForExtendedLayout"/>
+                            <navigationItem key="navigationItem" title="Settings" id="58"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+            </viewControllers>
+        </tabBarController>
+    </objects>
+    <resources>
+        <image name="ui_tabbar_listen.png" width="35" height="35"/>
+        <image name="ui_tabbar_read.png" width="35" height="35"/>
+        <image name="ui_tabbar_search.png" width="35" height="35"/>
+        <image name="ui_tabbar_settings.png" width="35" height="35"/>
+        <image name="ui_tabbar_watch.png" width="35" height="35"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

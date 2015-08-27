@@ -1,0 +1,170 @@
+{
+  "appSettings":
+    {
+      "navigationBarTint": "#6ea800",
+      "messageOfTheDayAlertHour": 10,
+      "parseApplicationKey": "VynG9mlCMocYKPn1O28PRhufhCUZwJZbtsDCId0c",
+      "parseClientId": "7odjmgfJNUbOHs6vhLQQeI1w1IpSabYOXINwJqoU"
+    
+    },
+  "tabs": [
+    {
+      "tabIcon": "ui_tabbar_read",
+      "tabName": "Read",
+      "tabPage":
+        {
+          "caption": "Read",
+          "backLabel": "Read",
+          "groups":
+          [
+            {
+              "groupCaption": "Group 1",
+              "groupPages":
+              [
+                {
+                  "title": "A group item",
+                  "caption": "A group item",
+                  "icon": "ui_list_icon_type_29x29",
+                  "html": "tab_1_group_1_item_1",
+                  "annotationId": "Unique id for note. Leave empty to disallow notes"
+                }
+              ]
+            },
+            {
+              "groupCaption": "Group 2",
+              "groupPages":
+              [
+                {
+                  "title": "Another group item",
+                  "caption": "Another group item",
+                  "icon": "ui_list_icon_type_29x29",
+                  "html": "tab_1_group_2_item_1"
+                },
+                {
+                  "title": "A sub page",
+                  "caption": "A sub page",
+                  "icon": "ui_list_icon_type_29x29",
+                    "groups":
+                    [
+                      {
+                        "groupCaption": "Subgroup 1",
+                        "groupPages":
+                        [
+                          {
+                            "title": "A subgroup item",
+                            "caption": "A subgroup item",
+                            "icon": "ui_list_icon_type_29x29",
+                            "html": "tab_1_group_1_item_1",
+                            "annotationId": "Unique id for note. Leave empty to disallow notes"
+                          },
+                          {
+                            "title": "A subgroup item",
+                            "caption": "A subgroup item",
+                            "icon": "ui_list_icon_type_29x29",
+                            "html": "31",
+                            "annotationId": "Unique id for note. Leave empty to disallow notes"
+                          },
+                          {
+                            "title": "A subgroup item",
+                            "caption": "A subgroup item",
+                            "icon": "ui_list_icon_type_29x29",
+                            "html": "32a",
+                            "annotationId": "Unique id for note. Leave empty to disallow notes"
+                          }
+                        ]
+                      }
+                    ]
+                }
+              ]
+            }
+          ]
+        }              
+    },
+    
+    {
+      "tabIcon": "ui_tabbar_listen",
+      "tabName": "Listen",
+      "tabPage":
+        {
+          "caption": "Listen",
+          "groups":
+          [
+            {
+              "groupCaption": "Listen to this!",
+              "groupPages":
+              [
+                {
+                  "title": "Enneagram TEST intro",
+                  "caption": "Enneagram TEST intro",
+                  "icon": "Movie.png",
+                  "audio": "iEnneagramTESTtype4UK",
+                  "html": "search_words_for_EnneagramTESTintroUK"
+                },
+                {
+                  "title": "Enneagram TEST intro - remote",
+                  "caption": "Enneagram TEST intro - remote",
+                  "icon": "Movie.png",
+                  "audio": "iEnneagramTESTmindsetUK",
+                  "html": "search_words_for_iEnneagramTESTtype4UK",
+                  "remoteURL": "http://krisb.net/touch/EnneagramTESTappintroUK.mp4"
+                }
+              ]
+            }
+          ]
+        }
+    },
+    
+    {
+      "tabIcon": "ui_tabbar_watch",
+      "tabName": "Watch",
+      "tabPage":
+        {
+          "caption": "Watch",
+          "groups":
+          [
+            {
+              "groupCaption": "Listen to this!",
+              "groupPages":
+              [
+                {
+                  "title": "iEnneagram TEST mindset",
+                  "caption": "iEnneagram TEST mindset",
+                  "icon": "Movie.png",
+                  "video": "iEnneagramTESTmindsetUK",
+                  "html": "search_words_for_iEnneagramTESTmindsetUK" 
+                },
+                {
+                  "title": "iEnneagram TEST type 4",
+                  "caption": "iEnneagram TEST type 4",
+                  "icon": "Movie.png",
+                  "video": "iEnneagramTESTtype4UK",
+                  "html": "search_words_for_iEnneagramTESTtype4UK" 
+                }
+              ]
+            }
+          ]
+        }
+    },
+    
+    {
+      "tabIcon": "ui_tabbar_search",
+      "tabName": "Search",
+      "tabPage":
+        { 
+          "caption": "Search",
+          "type": "search"
+        }
+    },
+    
+    {
+      "tabIcon": "ui_tabbar_settings",
+      "tabName": "Settings",
+      "tabPage":
+        { 
+          "caption": "Settings",
+          "type": "settings"
+        }
+    }
+    
+  ]
+}
