@@ -273,16 +273,6 @@
     },
     
     {
-      "tabIcon": "ui_tabbar_search",
-      "tabName": "Search",
-      "tabPage":
-        { 
-          "caption": "Search",
-          "type": "search"
-        }
-    },
-    
-    {
       "tabIcon": "ui_tabbar_settings",
       "tabName": "Settings",
       "tabPage":

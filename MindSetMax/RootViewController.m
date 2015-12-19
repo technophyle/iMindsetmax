@@ -282,9 +282,7 @@ static NSString * const kClientId = @"861642394645-eculigo4amtm0m4e9fiob3516k5k1
 - (void)updateTitleAndBackButton {
   self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:[[ContentStore contentStore] backLabelForPage:self.pageIndexPath]
                                                                             style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
-  
   self.navigationItem.title = [[ContentStore contentStore] captionForPage:self.pageIndexPath];
-  
 }
 
 - (void)viewDidLoad {
@@ -323,9 +321,9 @@ static NSString * const kClientId = @"861642394645-eculigo4amtm0m4e9fiob3516k5k1
   /* Share button on the nav bar */
   self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(shareButtonClicked:)];
   
-//  /* Search button on the nav bar */
-//  UIImage *image = [[UIImage imageNamed:@"ui_tabbar_search.png"] autorelease];
-//  self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:image style:UIBarButtonItemStylePlain target:self action:@selector(searchButtonClicked:)];
+  /* Search button on the nav bar */
+  UIImage *image = [[UIImage imageNamed:@"ui_tabbar_search.png"] autorelease];
+  self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithImage:image style:UIBarButtonItemStylePlain target:self action:@selector(searchButtonClicked:)];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
