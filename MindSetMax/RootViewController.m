@@ -45,8 +45,8 @@ static NSString * const kClientId = @"861642394645-eculigo4amtm0m4e9fiob3516k5k1
   CGRect appFrame = [UIScreen mainScreen].applicationFrame;
   float tableWidth = appFrame.size.width;
   if ( [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone ) {
-    self.bannerView.frame = CGRectMake(0,0,viewFrame.size.width,137);
-    self.tableViewContainer.frame = CGRectMake(0,137,viewFrame.size.width,viewFrame.size.height-137);
+    self.bannerView.frame = CGRectMake(0,0,viewFrame.size.width,117);
+    self.tableViewContainer.frame = CGRectMake(0,117,viewFrame.size.width,viewFrame.size.height-117);
     self.bannerView.vertical = NO;
   }
   if ( [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad ) {
@@ -60,8 +60,8 @@ static NSString * const kClientId = @"861642394645-eculigo4amtm0m4e9fiob3516k5k1
       self.tableViewContainer.frame = CGRectMake(viewFrame.size.width-tableWidth,0,tableWidth,viewFrame.size.height);
       self.bannerView.vertical = YES;
     } else {
-      self.bannerView.frame = CGRectMake(0,0,viewFrame.size.width,137);
-      self.tableViewContainer.frame = CGRectMake(0,137,viewFrame.size.width,viewFrame.size.height-137);
+      self.bannerView.frame = CGRectMake(0,0,viewFrame.size.width,117);
+      self.tableViewContainer.frame = CGRectMake(0,117,viewFrame.size.width,viewFrame.size.height-117);
       self.bannerView.vertical = NO;
     }
   }
