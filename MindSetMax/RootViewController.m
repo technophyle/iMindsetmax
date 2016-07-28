@@ -318,17 +318,16 @@ static NSString * const kClientId = @"861642394645-eculigo4amtm0m4e9fiob3516k5k1
 - (void)viewDidAppear:(BOOL)animated {
   [super viewDidAppear:animated];
 
-  /* Share button on the nav bar */
-  self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(shareButtonClicked:)];
+  /* Search & Share buttons on the nav bar */
   
-  /* Search button on the nav bar */
-  UIImage *image = [[UIImage imageNamed:@"ui_tabbar_search.png"] autorelease];
-  self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithImage:image style:UIBarButtonItemStylePlain target:self action:@selector(searchButtonClicked:)];
+  UIBarButtonItem *searchButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch target:self action:@selector(searchButtonClicked:)];
+  UIBarButtonItem *shareButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(shareButtonClicked:)];
+  self.navigationItem.rightBarButtonItems = [NSArray arrayWithObjects:shareButtonItem, searchButtonItem, nil];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
   [super viewWillDisappear:animated];
-  self.navigationItem.rightBarButtonItem = nil;
+//  self.navigationItem.rightBarButtonItem = nil;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -421,7 +420,7 @@ static NSString * const kClientId = @"861642394645-eculigo4amtm0m4e9fiob3516k5k1
 
 - (void)searchButtonClicked:(id)sender {
   SearchViewController *newVC = [[[SearchViewController alloc] initWithNibName:@"SearchViewController" bundle:nil] autorelease];
-  [self presentViewController:newVC animated:YES completion:nil];
+  [self.navigationController pushViewController:newVC animated:YES];
 }
 
 #pragma mark - Share button event handler

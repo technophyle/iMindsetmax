@@ -360,6 +360,7 @@
       UIViewController *testVC = [[NSClassFromString(viewController) alloc] init];
 //      TestViewController *testVC = (TestViewController *)[[TestViewController alloc] initWithNibName:viewController bundle:nil];
       testVC.navigationItem.title = title;
+      NSLog(@"%@", self.parentVC.navigationController.viewControllers);
       [self.parentVC.navigationController pushViewController:testVC animated:YES];
   } else {
       NSString *remoteUrl = [[ContentStore contentStore] remoteURLForPage:pagePath];

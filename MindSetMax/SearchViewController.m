@@ -36,7 +36,8 @@
   
   self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:[[ContentStore contentStore] backLabelForPage:self.pageIndexPath]
                                                                             style:UIBarButtonItemStylePlain target:nil action:nil] autorelease];
-  self.navigationItem.title = [[ContentStore contentStore] captionForPage:self.pageIndexPath];
+//  self.navigationItem.title = [[ContentStore contentStore] captionForPage:self.pageIndexPath];
+  self.navigationItem.title = @"Search";
   
 
   if ( SEARCH_ENABLED ) {
