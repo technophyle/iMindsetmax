@@ -153,7 +153,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "80"
             endingLineNumber = "80"
-            landmarkName = "-viewDidAppear:"
+            landmarkName = "-initScore"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
