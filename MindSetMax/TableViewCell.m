@@ -28,20 +28,20 @@
 
 - (void)setTableViewCellContext:(enum TableViewCellContext)tableViewCellContext {
   _tableViewCellContext = tableViewCellContext;
-  switch ( tableViewCellContext ) {
-    default:
-      self.backgroundView = [[[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"ui_table_cell_single"] stretchableImageWithLeftCapWidth:100.0 topCapHeight:0.0]] autorelease];
-      break;
-    case TableViewCellContextFirst:
-      self.backgroundView = [[[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"ui_table_cell_top"] stretchableImageWithLeftCapWidth:100.0 topCapHeight:0.0]] autorelease];
-      break;
-    case TableViewCellContextMiddle:
-      self.backgroundView = [[[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"ui_table_cell_middle"] stretchableImageWithLeftCapWidth:100.0 topCapHeight:0.0]] autorelease];
-      break;
-    case TableViewCellContextLast:
-      self.backgroundView = [[[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"ui_table_cell_bottom"] stretchableImageWithLeftCapWidth:100.0 topCapHeight:0.0]] autorelease];
-      break;      
-  }
+//  switch ( tableViewCellContext ) {
+//    default:
+//      self.backgroundView = [[[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"ui_table_cell_single"] stretchableImageWithLeftCapWidth:100.0 topCapHeight:0.0]] autorelease];
+//      break;
+//    case TableViewCellContextFirst:
+//      self.backgroundView = [[[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"ui_table_cell_top"] stretchableImageWithLeftCapWidth:100.0 topCapHeight:0.0]] autorelease];
+//      break;
+//    case TableViewCellContextMiddle:
+//      self.backgroundView = [[[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"ui_table_cell_middle"] stretchableImageWithLeftCapWidth:100.0 topCapHeight:0.0]] autorelease];
+//      break;
+//    case TableViewCellContextLast:
+//      self.backgroundView = [[[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"ui_table_cell_bottom"] stretchableImageWithLeftCapWidth:100.0 topCapHeight:0.0]] autorelease];
+//      break;      
+//  }
 }
 
 - (void)setTitleString:(NSString *)titleString {
@@ -79,11 +79,11 @@
 {
     self = [super initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseIdentifier];
     if (self) {
-      self.backgroundColor = [UIColor clearColor];
-      self.contentView.backgroundColor = [UIColor clearColor];
-      self.contentView.opaque = NO;
-      self.opaque = NO;
-      self.selectionStyle = UITableViewCellSelectionStyleNone;      
+//      self.backgroundColor = [UIColor clearColor];
+//      self.contentView.backgroundColor = [UIColor clearColor];
+//      self.contentView.opaque = NO;
+//      self.opaque = NO;
+      self.selectionStyle = UITableViewCellSelectionStyleNone;
       self.textLabel.font = [UIFont fontWithName:@"Cabin-Bold" size:20.0];
       self.textLabel.textColor = [UIColor colorWithRed:.5 green:.8 blue:.1 alpha:1];
       self.textLabel.adjustsFontSizeToFitWidth = YES;
