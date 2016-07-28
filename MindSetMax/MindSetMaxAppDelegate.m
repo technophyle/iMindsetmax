@@ -14,6 +14,7 @@
 #import "SettingsViewController.h"
 #import "DisclaimerViewController.h"
 #import "NewsletterViewController.h"
+#import "TestViewController.h"
 #import "SearchEngine.h"
 #import "Flurry.h"
 #import "DownloadManager.h"
@@ -107,26 +108,26 @@ void uncaughtExceptionHandler(NSException *exception) {
       return newVC;
       
     } else if ( [contentStore videoContentForPage:pageIndexPath].length>0 ) {
-      NSString* video = [contentStore videoContentForPage:pageIndexPath];
-      NSString* remoteURL = [contentStore remoteURLForPage:pageIndexPath];
-      NSString *moviePath = [[NSBundle mainBundle] pathForResource:video ofType:@"mp4"];
-      if ( remoteURL ) {
-        moviePath = [[DownloadManager sharedManager] pathToLocalCopyOfRemoteResource:remoteURL];
-      }
-      MPMoviePlayerViewController *mp = [[[MPMoviePlayerViewController alloc] initWithContentURL:[NSURL fileURLWithPath:moviePath]] autorelease];
-      [parentViewController presentMoviePlayerViewControllerAnimated:mp];
-      return nil;
+//      NSString* video = [contentStore videoContentForPage:pageIndexPath];
+//      NSString* remoteURL = [contentStore remoteURLForPage:pageIndexPath];
+//      NSString *moviePath = [[NSBundle mainBundle] pathForResource:video ofType:@"mp4"];
+//      if ( remoteURL ) {
+//        moviePath = [[DownloadManager sharedManager] pathToLocalCopyOfRemoteResource:remoteURL];
+//      }
+//      MPMoviePlayerViewController *mp = [[[MPMoviePlayerViewController alloc] initWithContentURL:[NSURL fileURLWithPath:moviePath]] autorelease];
+//      [parentViewController presentMoviePlayerViewControllerAnimated:mp];
+//      return nil;
       
     } else if ( [contentStore audioContentForPage:pageIndexPath].length>0 ) {
-      NSString* audio = [contentStore audioContentForPage:pageIndexPath];
-      NSString* remoteURL = [contentStore remoteURLForPage:pageIndexPath];
-      NSString *moviePath = [[NSBundle mainBundle] pathForResource:audio ofType:@"mp3"];
-      if ( remoteURL ) {
-        moviePath = [[DownloadManager sharedManager] pathToLocalCopyOfRemoteResource:remoteURL];
-      }
-      MPMoviePlayerViewController *mp = [[[MPMoviePlayerViewController alloc] initWithContentURL:[NSURL fileURLWithPath:moviePath]] autorelease];
-      [parentViewController presentMoviePlayerViewControllerAnimated:mp];
-      return nil;
+//      NSString* audio = [contentStore audioContentForPage:pageIndexPath];
+//      NSString* remoteURL = [contentStore remoteURLForPage:pageIndexPath];
+//      NSString *moviePath = [[NSBundle mainBundle] pathForResource:audio ofType:@"mp3"];
+//      if ( remoteURL ) {
+//        moviePath = [[DownloadManager sharedManager] pathToLocalCopyOfRemoteResource:remoteURL];
+//      }
+//      MPMoviePlayerViewController *mp = [[[MPMoviePlayerViewController alloc] initWithContentURL:[NSURL fileURLWithPath:moviePath]] autorelease];
+//      [parentViewController presentMoviePlayerViewControllerAnimated:mp];
+//      return nil;
       
     } else if ( [contentStore htmlContentForPage:pageIndexPath].length>0 ) {
       WebViewController *newVC = [[[WebViewController alloc] initWithNibName:@"WebViewController" bundle:nil] autorelease];
@@ -543,6 +544,18 @@ NSInteger max(NSInteger a,NSInteger b) {
             openURL: (NSURL *)url
   sourceApplication: (NSString *)sourceApplication
          annotation: (id)annotation {
+  NSLog(@"openURL called!! url.scheme: %@", url.scheme);
+  if ([url.scheme isEqualToString:@"imindsetmaxLITE"]) {
+    NSString *host = url.host;
+    if ([host isEqualToString:@"depression-test"]) {
+      [self.tabBarController setSelectedIndex:1]; // Test tab
+      UINavigationController *navigationController = [[self.tabBarController viewControllers] objectAtIndex:1];
+      TestViewController *testVC = [TestViewController new];
+      testVC.navigationItem.title = @"Depression test"; // IMPORTANT: Otherwise the test view controller doesn't know which test
+      [navigationController pushViewController:testVC animated:YES];
+    }
+    return YES;
+  }
   
   if ([LISDKCallbackHandler shouldHandleUrl:url]) {
     return [LISDKCallbackHandler application:application openURL:url sourceApplication:sourceApplication annotation:annotation];
