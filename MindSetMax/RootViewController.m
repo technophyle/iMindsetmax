@@ -420,7 +420,11 @@ static NSString * const kClientId = @"861642394645-eculigo4amtm0m4e9fiob3516k5k1
 
 - (void)searchButtonClicked:(id)sender {
   SearchViewController *newVC = [[[SearchViewController alloc] initWithNibName:@"SearchViewController" bundle:nil] autorelease];
+  newVC.pageIndexPath = [NSIndexPath indexPathWithIndex:10];  // Just put a number that is bigger than the number of tabs;
+                                                              // for reference, check createViewControllerWithPageIndexPath inside app delegate
+                                                              // after checking out the initial commit
   [self.navigationController pushViewController:newVC animated:YES];
+//  [self presentViewController:newVC animated:YES completion:nil];
 }
 
 #pragma mark - Share button event handler
