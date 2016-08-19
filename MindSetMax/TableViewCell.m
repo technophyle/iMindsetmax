@@ -61,7 +61,7 @@
 }
 
 - (void)setIconName:(NSString *)iconName {
-  self.imageView.image = [UIImage imageNamed:iconName]; 
+  self.imageView.image = [UIImage imageNamed:iconName];
 }
 
 - (void) layoutSubviews {
